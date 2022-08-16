@@ -119,20 +119,4 @@ async function journeyPlanner(postCode, busStopCode) {
     console.log("You have arrived!");
 }
 
-
-// async function postCodeCheck (postCode) {
-//     pcApiRequest = "https://api.postcodes.io/postcodes/"+postCode
-//     //pcApiRequest = "https://api.postcodes.io/postcodes/N129HB"
-//     const postCodeResponse = await fetch(pcApiRequest);
-//     const postCodeData = await postCodeResponse.json();
-//     if (postCodeData.status === 404) {
-//         return false;
-//     }
-//     else {
-//         return true;
-//     }
-// }
-
 findNearestStops('Enter the post code to be searched for:');
-
-//journeyPlanner();
